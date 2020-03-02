@@ -1,0 +1,101 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Spartan;
+}
+@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+.sfondo{
+  background-color: #2A4B77;
+}
+.slide-sfondo{
+  background-color: #F6F7F8;
+}
+.white{
+  color: white;
+}
+.grey{
+  color: #A7A6B7;
+}
+.celeste{
+  color: #7392B6;
+}
+.center{
+  text-align: center;
+}
+.right{
+  text-align: right;
+}
+.padding-top{
+  padding-top: 60px;
+}
+.margin-bottom{
+  margin-bottom: 40px;
+}
+h1{
+  font-size: 35px;
+  margin: 50px 0;
+}
+h3{
+  color: #274DAF;
+  margin-bottom: 10px;
+  padding-top: 100px;
+}
+p{
+  font-size: 20px;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+.p{
+  font-size: 17px;
+  font-weight: bold;
+}
+#clock{
+  margin-top: 70px;
+}
+#calendario{
+  height: 500px;
+}
+
+/*classi del body*/
+.widjet img{
+  height: 240px;
+  margin: 40px 0;
+}
+.notes img{
+  height: 400px;
+  margin: 0 30px;
+}
+ul li{
+  list-style-type: none;
+  text-decoration: none;
+}
+ul li:first-child{
+  font-weight: bold;
+  color: #7392B6;
+  margin-bottom: 20px;
+}
+ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+/*media query*/
+@media screen and (max-width: 768px) {
+  body{
+    font-size: 16px;
+  }
+  #smartwatch{
+    height: 300px;
+  }
+  section.sfondo, section.slide-sfondo, div.notes, div.notes2, div.container{
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #right, div.notes{
+    text-align: right;
+  }
+
+}
